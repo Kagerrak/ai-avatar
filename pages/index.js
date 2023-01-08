@@ -5,7 +5,9 @@ import buildspaceLogo from "../assets/buildspace-logo.png";
 
 const Home = () => {
   const maxRetries = 20;
-  const [input, setInput] = useState("");
+  const [input, setInput] = useState(
+    "front facing portrait of rommel as a character in cyberpunk edgerunners netflix show, fantasy, highly detailed, digital painting, neon colors, 8k, by dan mumford"
+  );
   const [img, setImg] = useState("");
   const [retry, setRetry] = useState(0);
   const [retryCount, setRetryCount] = useState(maxRetries);
@@ -106,6 +108,7 @@ const Home = () => {
               Turn me into anyone you want! Make sure you refer to me as
               "rommel" in the prompt
             </h2>
+            <h3>Replace prompt below ⬇️⬇️⬇️⬇️</h3>
           </div>
           <div className="prompt-container">
             <textarea
